@@ -1,0 +1,6 @@
+## Name of the node
+-sname exsim
+
+## Args
+-smp auto +P 134217727 +K true +A 64
+

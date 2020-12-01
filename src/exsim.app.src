@@ -1,0 +1,17 @@
+%%-*- mode: erlang -*-
+{application, exsim, [
+	{description, "Exchange Simulator"},
+	{vsn, "0.1.0"},
+	{registered, []},
+	{applications, [
+		kernel,
+		lager,
+		stdlib,
+		crypto,
+		inets,
+		jiffy,
+		cowboy
+	]},
+	{mod, {exsim_app, [undefined]}},
+	{env, []}
+]}.
